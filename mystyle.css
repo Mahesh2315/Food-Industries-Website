@@ -1,9 +1,10 @@
-*{
-    padding: 0;margin: 0;
+* {
+    padding: 0;
+    margin: 0;
     font-family: math;
 }
 
-.first{
+.first {
     background-image: url(./images/background.jpeg);
     height: 100vh;
     width: 100vw;
@@ -14,7 +15,7 @@
     align-items: center;
 }
 
-#selected{
+#selected {
     height: 40px;
     border: 0px solid transparent;
     border-radius: 10px;
@@ -22,11 +23,11 @@
     font-family: math;
     font-size: 18px;
     color: blue;
-   
+
 }
 
-#lang{
-    
+#lang {
+
     height: 30px;
     width: 150px;
     border: 0;
@@ -39,7 +40,7 @@
     margin-left: 40px;
 }
 
-#food-button{
+#food-button {
     cursor: pointer;
     color: blue;
     font-weight: 700;
@@ -52,40 +53,43 @@
     background-color: rgb(113, 253, 127);
 }
 
-.first-nav ul{
+.first-nav ul {
     list-style: none;
     display: flex;
-     text-decoration: none;
-     /* color: wheat; */
-     align-items: center;
+    text-decoration: none;
+    /* color: wheat; */
+    align-items: center;
 }
-.first-nav{
+
+.first-nav {
     padding-top: 10px;
-  
+
     display: flex;
-  
+
     height: 40px;
-   
-    box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
+
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, .2);
     padding-left: 80px;
-   
+
 }
-.first-nav ul li a{
+
+.first-nav ul li a {
     font-size: 20px;
     color: white;
     padding: 0px 20px;
     text-decoration: none;
 }
 
-.first img{
+.first img {
     height: auto;
     width: 100vw;
 }
-.first h1{
+
+.first h1 {
     font-size: 80px;
 }
 
-#firstbutton{
+#firstbutton {
     font-size: 35px;
     background-color: rgb(8, 144, 22);
     display: inline;
@@ -95,16 +99,16 @@
     color: white;
     justify-content: center;
     padding: 5px 10px;
-    
+
 }
 
-.first-inner{
+.first-inner {
 
     margin-right: 100px;
     padding: 200px 50px;
 }
 
-.second{
+.second {
     display: flex;
     align-items: center;
     /* position: absolute; */
@@ -115,7 +119,8 @@
     height: 90vh;
     width: 100vw;
 }
-#second-h2{
+
+#second-h2 {
     float: left;
     color: white;
     font-size: 70px;
@@ -123,18 +128,19 @@
     padding-right: 400px;
 }
 
-#second-h3{
+#second-h3 {
     float: right;
     color: white;
     /* padding-top: 80px; */
 }
 
-.third-inner{
+.third-inner {
     margin: 50px 10px;
     justify-content: space-evenly;
     display: flex;
 }
-.middle{
+
+.middle {
     color: orange;
     font-size: 30px;
     margin-left: 80px;
@@ -142,14 +148,14 @@
 }
 
 
-.third-pic img{
+.third-pic img {
     cursor: pointer;
     border-radius: 10px;
     height: 250px;
     width: 250px;
 }
 
-.fourth{
+.fourth {
     background-image: url(images/contact.jpg);
     width: 100vw;
     height: 700px;
@@ -157,24 +163,29 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-.fourth-inner{
+
+.fourth-inner {
     color: white;
     padding: 250px 20px 0px 70vw;
 }
-.fourth-inner h2{
+
+.fourth-inner h2 {
     font-size: 65px;
 }
-.fourth-inner p{
+
+.fourth-inner p {
     font-size: larger;
 }
-#fourth-tag{
+
+#fourth-tag {
     text-decoration: none;
     font-size: 25px;
     color: rgb(3, 212, 21);
 }
-#fourth-button{
+
+#fourth-button {
     border: 0px solid transparent;
-    background-color:  yellow;
+    background-color: yellow;
     color: brown;
     height: 35px;
     padding: 10px 20px;
